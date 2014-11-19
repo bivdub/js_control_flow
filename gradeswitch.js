@@ -3,7 +3,7 @@ var grade = Math.random().toFixed(2) * 100;
 console.log("The grade is " + grade + " which means: ");
 
 switch (true) {
-	case grade >= 90:
+	case (grade >= 90):
 		console.log("A");
 		break;
 	case grade >= 80:

@@ -1,5 +1,5 @@
-var thing = "albatross";
-var count = "5";
+var thing = "octopus";
+var count = "3.6";
 
 if (parseInt(count) > 1 && thing.charAt(thing.length-1).toLowerCase() !== 's') {
 	thing += 's';
@@ -7,4 +7,4 @@ if (parseInt(count) > 1 && thing.charAt(thing.length-1).toLowerCase() !== 's') {
 	thing += 'es';
 }
 
-console.log(count, thing);
+console.log(parseInt(count), thing);

@@ -1,4 +1,4 @@
-var tempFar = Math.random().toFixed(2) * 100;
+var tempFar = 75;
 
 var tempCel = (((tempFar - 32) * 5) / 9).toFixed(2);
 
