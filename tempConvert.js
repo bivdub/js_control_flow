@@ -1,4 +1,4 @@
-tempFar = 75.00;
+tempFar = 75;
 
 tempCel = (((tempFar - 32) * 5) / 9).toFixed(2);
 

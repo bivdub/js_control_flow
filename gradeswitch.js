@@ -1,4 +1,6 @@
-var grade = 85;
+var grade = Math.random().toFixed(2) * 100;
+
+console.log("The grade is " + grade + " which means: ");
 
 switch (true) {
 	case grade >= 90:

@@ -1,4 +1,6 @@
-var grade = 90;
+var grade = Math.random().toFixed(2) * 100;
+
+console.log("The grade is " + grade + " which means: ");
 
 if (grade >= 90) {
 	console.log('your grade is A');
