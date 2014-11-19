@@ -1,10 +1,13 @@
 var thing = "octopus";
-var count = "3.6";
+var count = parseInt("3.6");
 
-if (parseInt(count) > 1 && thing.charAt(thing.length-1).toLowerCase() !== 's') {
+//Checks to see if the animal name ends in 's' -- if so adds 'es' if there are multiples
+//if not adds 's', there are 
+
+if (count > 1 && thing.charAt(thing.length-1).toLowerCase() !== 's') {
 	thing += 's';
-}  else if (parseInt(count) > 1 && thing.charAt(thing.length-1).toLowerCase() === 's') {
+}  else if (count > 1 && thing.charAt(thing.length-1).toLowerCase() === 's') {
 	thing += 'es';
 }
 
-console.log(parseInt(count), thing);
+console.log(count + " " + thing);
